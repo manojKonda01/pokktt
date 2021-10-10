@@ -1,2 +1,0 @@
-# pokkt
-Pokkt Signup
