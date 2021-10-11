@@ -17,6 +17,7 @@ $(function () {
     let password = $("#pass").val();
     let confirmPassword = $("#cpass").val();
     if (password != confirmPassword) {
+      $("#msg").css("color","red");
       $("#msg").html("Passwords does not match!");
     }
     else {
